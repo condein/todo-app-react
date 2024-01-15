@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.outer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("sec.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  height: 70vh;
+  width: 90vw;
+  background-color: rgba(255, 255, 255, 0.288);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+.name {
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+  word-spacing: 4px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  outline: none;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.342);
+  backdrop-filter: blur(10px);
+  color: black;
+  font-weight: 800;
+}
+.sec {
+  margin-top: 30px;
+}
+.btn1 {
+  min-width: 6rem;
+}
+
+.tex,
+.dat {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: rgb(22, 12, 12);
+}
+.err {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.349);
+  width: 70%;
+  height: 20vh;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  border-radius: 5px;
+  display: flex;
+  text-decoration: underline;
+  border: 2px solid red;
+  padding: 10px;
+  box-shadow: 0 0 10px 5px red;
+  text-shadow: 0 0 6px black;
+}
